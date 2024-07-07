@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
 
+-include /usr/share/dpkg/buildtools.mk
 CPPFLAGS:=$(shell dpkg-buildflags --get CPPFLAGS)
 CFLAGS:=$(shell dpkg-buildflags --get CFLAGS) $(CPPFLAGS)
 LDFLAGS:=$(shell dpkg-buildflags --get LDFLAGS)
@@ -8,7 +9,7 @@ LDFLAGS:=$(shell dpkg-buildflags --get LDFLAGS)
 	dh $@
 
 ksmctl: ksmctl.c
-	gcc $< -O2 -g $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -o $@
+	$(CC) $< -O2 -g $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -o $@
 
 build-arch:  ksmctl
 	dh $@

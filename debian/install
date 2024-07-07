@@ -1,5 +1,5 @@
 ksm             etc/default
-*.service       lib/systemd/system
+*.service       usr/lib/systemd/system
 ksmctl          usr/sbin
 ksmtuned        usr/sbin
 ksmtuned.conf   etc
