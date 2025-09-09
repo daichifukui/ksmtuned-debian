@@ -1,3 +1,10 @@
+ksmtuned (4.20150326+mnu2) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Maintain package in Debian team on Salsa
+
+ -- Andreas Tille <tille@debian.org>  Tue, 09 Sep 2025 10:35:45 +0200
+
 ksmtuned (4.20150326+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload.
