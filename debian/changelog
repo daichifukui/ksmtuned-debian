@@ -6,6 +6,8 @@ ksmtuned (4.20150326+mnu2) UNRELEASED; urgency=medium
   * Maintain package in Debian team on Salsa
   * Provide watch file fetching latest upstream commit as comment
   * d/control: DEP5
+  * This package Enhances qemu-kvm
+    Closes: #854175
 
   [ Nat Makarevitch ]
   * Add Depends: procps, awk, logger

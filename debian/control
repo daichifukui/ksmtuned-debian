@@ -12,7 +12,7 @@ Package: ksmtuned
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}, procps, awk, logger
-Recommends: qemu-kvm
+Enhances: qemu-kvm
 Description: enables and tunes Kernel Samepage Merging
  This package ships the ksm and ksmtuned services to control
  Kernel Samepage Merging. KSM is a memory-saving de-duplication
