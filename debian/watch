@@ -1,0 +1,5 @@
+version=4
+
+# This would fetch the latest upstream commit
+#opts="mode=git,pretty=4.git%cd.%h" \
+#    https://github.com/ksmtuned/ksmtuned.git HEAD
