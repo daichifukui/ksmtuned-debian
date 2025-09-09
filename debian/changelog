@@ -13,7 +13,7 @@ ksmtuned (4.20150326+nmu2) UNRELEASED; urgency=medium
   * Remove trailing whitespace in debian/copyright (routine-update)
 
   [ Nat Makarevitch ]
-  * Add Depends: procps, logger
+  * Add Depends: procps
 
  -- Andreas Tille <tille@debian.org>  Tue, 09 Sep 2025 10:35:45 +0200
 
