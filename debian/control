@@ -1,9 +1,10 @@
 Source: ksmtuned
+Standards-Version: 4.7.2
+Maintainer: Bernd Zeimetz <bzed@debian.org>
 Section: kernel
 Priority: optional
-Maintainer: Bernd Zeimetz <bzed@debian.org>
-Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.7.2
+Build-Depends:
+ debhelper-compat (= 13),
 Vcs-Browser: https://salsa.debian.org/debian/ksmtuned
 Vcs-Git: https://salsa.debian.org/debian/ksmtuned.git
 Homepage: https://github.com/ksmtuned/ksmtuned

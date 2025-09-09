@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ksmtuned
 Source: https://github.com/ksmtuned/ksmtuned
- 
+
 Files: *
 Copyright: 2009-2011 Red Hat, Inc. and/or its affiliates.
            Authors: Dan Kenigsberg <danken@redhat.com>
                     Paolo Bonzini <pbonzini@redhat.com>
 License: GPL-2+
- 
+
 Files: debian/*
 Copyright: 2015 Bernd Zeimetz <bzed@debian.org>
 License: GPL-2+
