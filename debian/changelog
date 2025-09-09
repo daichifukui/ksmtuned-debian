@@ -9,6 +9,7 @@ ksmtuned (4.20150326+mnu2) UNRELEASED; urgency=medium
   * This package Enhances qemu-kvm
     Closes: #854175
   * Standards-Version: 4.7.2 (routine-update)
+  * debhelper-compat 13 (routine-update)
 
   [ Nat Makarevitch ]
   * Add Depends: procps, logger
