@@ -1,4 +1,4 @@
-ksmtuned (4.20150326+nn-0.1) UNRELEASED; urgency=medium
+ksmtuned (4.20150326+nn-0.1) unstable; urgency=medium
 
   * Non-maintainer upload.
 
@@ -16,7 +16,7 @@ ksmtuned (4.20150326+nn-0.1) UNRELEASED; urgency=medium
   [ Nat Makarevitch ]
   * Add Depends: procps
 
- -- Andreas Tille <tille@debian.org>  Tue, 09 Sep 2025 10:35:45 +0200
+ -- Andreas Tille <tille@debian.org>  Wed, 24 Sep 2025 14:34:10 +0200
 
 ksmtuned (4.20150326+nmu1) unstable; urgency=medium
 
