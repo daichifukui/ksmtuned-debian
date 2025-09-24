@@ -5,7 +5,7 @@ ksmtuned (4.20150326+nn-0.1) unstable; urgency=medium
   [ Andreas Tille ]
   * Maintain package in Debian team on Salsa
   * Non-native package
-  * Provide watch file fetching latest upstream commit as comment
+  * Provide watch file fetching latest upstream commit (but do not upgrade)
   * d/control: DEP5
   * This package Enhances qemu-kvm
     Closes: #854175
