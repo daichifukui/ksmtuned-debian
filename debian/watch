@@ -1,5 +1,6 @@
-version=4
+Version: 5
 
-# This would fetch the latest upstream commit
-#opts="mode=git,pretty=4.git%cd.%h" \
-#    https://github.com/ksmtuned/ksmtuned.git HEAD
+Source: https://github.com/ksmtuned/ksmtuned.git
+Matching-Pattern: HEAD
+Mode: git
+Git-Pretty: 4.%cd
