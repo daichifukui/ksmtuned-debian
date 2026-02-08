@@ -1,6 +1,6 @@
 Source: ksmtuned
 Standards-Version: 4.7.2
-Maintainer: Bernd Zeimetz <bzed@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Section: kernel
 Priority: optional
 Build-Depends:
