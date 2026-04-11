@@ -1,21 +1,18 @@
 Source: ksmtuned
-Standards-Version: 4.7.2
-Maintainer: Bernd Zeimetz <bzed@debian.org>
 Section: kernel
 Priority: optional
-Build-Depends:
- debhelper-compat (= 13),
-Vcs-Browser: https://salsa.debian.org/debian/ksmtuned
-Vcs-Git: https://salsa.debian.org/debian/ksmtuned.git
+Maintainer: Bernd Zeimetz <bzed@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 3.9.6
 Homepage: https://github.com/ksmtuned/ksmtuned
+Vcs-Browser: https://github.com/bzed/debian-ksmtuned
+Vcs-Git: https://github.com/bzed/debian-ksmtuned.git
 
 Package: ksmtuned
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-         procps,
-Enhances: qemu-kvm
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: qemu-kvm
 Description: enables and tunes Kernel Samepage Merging
  This package ships the ksm and ksmtuned services to control
  Kernel Samepage Merging. KSM is a memory-saving de-duplication
