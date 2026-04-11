@@ -1,7 +1,8 @@
 #!/bin/bash
 #
 # Copyright 2009 Red Hat, Inc. and/or its affiliates.
-# Released under the GPL
+# This file is distributed under the GNU General Public License, version 2
+# or later.
 #
 # Author:      Dan Kenigsberg <danken@redhat.com>
 #
@@ -17,8 +18,8 @@
 #
 # needs testing and ironing. contact danken@redhat.com if something breaks.
 
-if [ -f /etc/ksmtuned.conf ]; then
-    . /etc/ksmtuned.conf
+if [ -f @SYSCONFDIR@/ksmtuned.conf ]; then
+    . @SYSCONFDIR@/ksmtuned.conf
 fi
 
 debug() {
@@ -69,8 +70,9 @@ KSMCTL () {
 }
 
 committed_memory () {
+    # calculate how much memory is committed to running qemu processes
     local pidlist
-    pidlist=$(pgrep -f -d ' ' '^qemu-system.*-enable-kvm')
+    pidlist=$(pgrep -d ' ' -- '^qemu(-(kvm|system-.+)|:.{1,11})$')
     if [ -n "$pidlist" ]; then
         ps -p "$pidlist" -o rsz=
     fi | awk '{ sum += $1 }; END { print 0+sum }'
