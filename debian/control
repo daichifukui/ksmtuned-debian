@@ -2,7 +2,6 @@ Source: ksmtuned
 Standards-Version: 4.7.2
 Maintainer: Debian QA Group <packages@qa.debian.org>
 Section: kernel
-Priority: optional
 Build-Depends:
  debhelper-compat (= 13),
 Vcs-Browser: https://salsa.debian.org/debian/ksmtuned

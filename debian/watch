@@ -1,6 +1,5 @@
-Version: 5
+Version: 4
 
-Source: https://github.com/ksmtuned/ksmtuned.git
-Matching-Pattern: HEAD
-Mode: git
-Git-Pretty: 4.%cd
+opts=mode=git
+https://github.com/ksmtuned/ksmtuned.git \
+/^v?(4\.[0-9]+(?:\.[0-9]+)*\+\w+)$/
